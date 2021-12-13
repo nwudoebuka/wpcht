@@ -8,3 +8,6 @@ Waya Paychat is designed to remove this Hassle, it is disgned to merge both amaz
 This solution is only available on mobile (Android and iOS).
 ## Conception
 I (Nwudo Anthony Chukwuebuka) was contracted solely to start and finish the project, this project was estimated for 4 months, i have spent 3 months on it and its 85% done already.
+##Architecture
+I followed MVVM pattern in the course of development, I chose this because I might not be the one maintaining the code base in the future. and I think most engineers are comfortable with MVVM and also Reactive approach of programming seems to be the new normal.
+I also used Coordinator partern for navigations in other to reduce the work/responsibility of the view layer.
