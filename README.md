@@ -14,3 +14,7 @@ I also used Coordinator partern for navigations in other to reduce the work/resp
 ## Other projects I have done
 I saign NDAs(Non disclosure agreement) with most Projects/Companies I have worked on, but below is one of the projects I did for a company in U.K named AsthmaApp, the app track record of Asthma incidence and also notifies relatives each time a patient has an Asthma. below is the git hub link<br />
 https://github.com/nwudoebuka/asthmapp
+
+## Public Profile
+I am active in Linked in and Medium where I post articles about mobile app development(Android/iOS), my linkedIn profile reflects a number of companies I have worked with in the past. below is my linked in profile.<br />
+https://www.linkedin.com/in/chukwuebuka-nwudo-315b15144/
