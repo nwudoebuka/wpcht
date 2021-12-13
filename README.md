@@ -12,7 +12,7 @@ I (Nwudo Anthony Chukwuebuka) was contracted solely to start and finish the proj
 I followed MVVM pattern in the course of development, I chose this because I might not be the one maintaining the code base in the future. and I think most engineers are comfortable with MVVM and also Reactive approach of programming seems to be the new normal.
 I also used Coordinator partern for navigations in other to reduce the work/responsibility of the view layer.
 ## Other projects I have done
-I saign NDAs(Non disclosure agreement) with most Projects/Companies I have worked on, but below is one of the projects I did for a company in U.K named AsthmaApp, the app track record of Asthma incidence and also notifies relatives each time a patient has an Asthma. below is the git hub link<br />
+I saign NDAs(Non disclosure agreement) with most Projects/Companies I have worked on, but below is one of the projects I did for a company in U.K named AsthmaApp, the app track record of Asthma incidence and also notifies relatives each time a patient has an Asthma. the app was done in KMM(Kotlin Multi Platform), I was the lead developer in the team and I did 70 percent of the app (Bot Android and iOS part). below is the git hub link<br />
 https://github.com/nwudoebuka/asthmapp
 
 ## Public Profile
