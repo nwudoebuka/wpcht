@@ -1,6 +1,6 @@
 # wpcht
 
-Waya Pay Chat is social application that includes payment system as well to enhance easy payment during conversations.
+Waya Pay Chat is a social iOS application that includes payment system as well to enhance easy payment during conversations.
 this project was designed to solve the problem of having to leave a conversation or an app to enter a bank app to make transfers or complete a transaction.
 ## Problem and Solution
 It has often been a discomfort leaving a social app in the middle of a chat with probably a vendor or a bussiness partner to open a bank app in other to complete a transaction, screenshot receipt then come back to the chat app to send as a picture.
