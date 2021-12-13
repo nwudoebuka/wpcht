@@ -2,7 +2,7 @@
 //  WithdrawViewController.swift
 //  Waya PayChat 2.0
 //
-//  Created by Mark Boleigha on 09/08/2021.
+//  Created by Nwudo Anthony Chukwuebuka on 09/08/2021.
 //
 
 import UIKit

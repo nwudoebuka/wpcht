@@ -2,7 +2,7 @@
 //  PinStackView.swift
 //  Waya PayChat 2.0
 //
-//  Created by Home on 3/5/21.
+//  Created by Nwudo Anthony Chukwuebuka on 3/5/21.
 //
 protocol OTPDelegate: class {
     //always triggers when the OTP field is valid

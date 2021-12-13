@@ -2,7 +2,7 @@
 //  PaymentFormUITests.swift
 //  Waya PayChat 2.0UITests
 //
-//  Created by Home on 1/14/21.
+//  Created by Nwudo Anthony Chukwuebuka on 1/14/21.
 //
 
 import XCTest

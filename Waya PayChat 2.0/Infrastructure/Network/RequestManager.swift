@@ -2,7 +2,7 @@
 //  RequestManager.swift
 //  Waya PayChat 2.0
 //
-//  Created by Mark Boleigha on 20/05/2021.
+//  Created by Nwudo Anthony Chukwuebuka on 20/05/2021.
 //
 
 import Foundation

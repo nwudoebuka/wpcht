@@ -2,7 +2,7 @@
 //  CardExpiryRule.swift
 //  SwiftValidator
 //
-//  Created by Mark Boleigha on 13/03/2019.
+//  Created by Nwudo Anthony Chukwuebuka on 13/03/2019.
 //  Copyright © 2019 jpotts18. All rights reserved.
 //
 

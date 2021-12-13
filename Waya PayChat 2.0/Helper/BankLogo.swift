@@ -2,7 +2,7 @@
 //  BankLogos.swift
 //  Waya PayChat 2.0
 //
-//  Created by Mark Boleigha on 22/06/2021.
+//  Created by Nwudo Anthony Chukwuebuka on 22/06/2021.
 //
 
 import Foundation

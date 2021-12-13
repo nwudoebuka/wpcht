@@ -2,7 +2,7 @@
 //  PayToBeneficiaryView.swift
 //  Waya PayChat 2.0
 //
-//  Created by Mark Boleigha on 10/06/2021.
+//  Created by Nwudo Anthony Chukwuebuka on 10/06/2021.
 //
 
 import Foundation

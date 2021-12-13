@@ -2,7 +2,7 @@
 //  PasswordRequest.swift
 //  Waya PayChat 2.0
 //
-//  Created by Mark Boleigha on 7/24/21.
+//  Created by Nwudo Anthony Chukwuebuka on 7/24/21.
 //
 
 import Foundation

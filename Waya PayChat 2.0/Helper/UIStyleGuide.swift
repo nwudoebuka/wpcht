@@ -2,7 +2,7 @@
 //  UIStyleGuide.swift
 //  Waya PayChat 2.0
 //
-//  Created by Mark Boleigha on 18/05/2021.
+//  Created by Nwudo Anthony Chukwuebuka on 18/05/2021.
 //
 
 import UIKit

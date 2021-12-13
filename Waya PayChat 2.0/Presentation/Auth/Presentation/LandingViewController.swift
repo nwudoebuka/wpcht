@@ -2,7 +2,7 @@
 //  LandingViewController.swift
 //  Waya PayChat 2.0
 //
-//  Created by Home on 3/3/21.
+//  Created by Nwudo Anthony Chukwuebuka on 3/3/21.
 //
 
 final class LandingViewController : UIViewController, LandingView{

@@ -2,7 +2,7 @@
 //  CorporateRegistration.swift
 //  Waya PayChat 2.0UITests
 //
-//  Created by Mark Boleigha on 29/06/2021.
+//  Created by Nwudo Anthony Chukwuebuka on 29/06/2021.
 //
 
 @testable import Waya_PayChat_2_0

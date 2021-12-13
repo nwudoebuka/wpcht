@@ -2,7 +2,7 @@
 //  FollowUserResponse.swift
 //  Waya PayChat 2.0
 //
-//  Created by Mark Boleigha on 01/09/2021.
+//  Created by Nwudo Anthony Chukwuebuka on 01/09/2021.
 //
 
 import Foundation

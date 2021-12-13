@@ -2,7 +2,7 @@
 //  WithdrawalService.swift
 //  Waya PayChat 2.0
 //
-//  Created by Mark Boleigha on 24/08/2021.
+//  Created by Nwudo Anthony Chukwuebuka on 24/08/2021.
 //
 
 import Foundation

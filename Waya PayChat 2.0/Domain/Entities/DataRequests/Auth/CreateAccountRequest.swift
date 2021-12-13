@@ -2,7 +2,7 @@
 //  CreateAccountRequest.swift
 //  Waya PayChat 2.0
 //
-//  Created by Home on 1/22/21.
+//  Created by Nwudo Anthony Chukwuebuka on 1/22/21.
 //
 
 import Foundation

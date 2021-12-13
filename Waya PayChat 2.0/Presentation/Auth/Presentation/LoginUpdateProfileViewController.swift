@@ -2,7 +2,7 @@
 //  LoginUpdateProfileViewController.swift
 //  Waya PayChat 2.0
 //
-//  Created by Home on 3/10/21.
+//  Created by Nwudo Anthony Chukwuebuka on 3/10/21.
 //
 import UIKit
 import SwiftValidator

@@ -2,7 +2,7 @@
 //  NumericRule.swift
 //  Validator
 //
-//  Created by Mark Boleigha on 28/05/2021.
+//  Created by Nwudo Anthony Chukwuebuka on 28/05/2021.
 //  Copyright © 2021 jpotts18. All rights reserved.
 //
 

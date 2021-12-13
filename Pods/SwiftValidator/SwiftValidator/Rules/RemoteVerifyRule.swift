@@ -2,7 +2,7 @@
 //  RemoteVerifyRule.swift
 //  SwiftValidator
 //
-//  Created by Mark Boleigha on 05/06/2021.
+//  Created by Nwudo Anthony Chukwuebuka on 05/06/2021.
 //  Copyright © 2021 jpotts18. All rights reserved.
 //
 

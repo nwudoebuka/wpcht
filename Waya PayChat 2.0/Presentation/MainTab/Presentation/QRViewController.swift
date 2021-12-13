@@ -2,7 +2,7 @@
 //  QRViewController.swift
 //  Waya PayChat 2.0
 //
-//  Created by Home on 3/18/21.
+//  Created by Nwudo Anthony Chukwuebuka on 3/18/21.
 //
 
 protocol QRView : BaseView {
