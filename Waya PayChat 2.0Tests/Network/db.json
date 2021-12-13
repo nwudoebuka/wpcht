@@ -1,0 +1,132 @@
+{
+    "auth_service": {
+        "login": {
+            "correct_output": {
+                "status": true,
+                "message": "Login Successful",
+                "code": 0,
+                "data": {
+                    "corporate": true,
+                    "roles": [
+                        "USER_LV1"
+                    ],
+                    "pinCreated": false,
+                    "user": {
+                        "id": 27,
+                        "email": "mark.boleigha@wayapaychat.com",
+                        "phoneNumber": "2348059664630",
+                        "firstName": "John",
+                        "lastName": "Smith"
+                    },
+                    "token": "serial eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtYXJrLmJvbGVpZ2hhQHdheWFwYXljaGF0LmNvbSIsImV4cCI6MTY1NDE2NTcwNX0.pzlV-tVpeAaISA2_XhXXKjtR8XikHEkav9sYQ3WyfDQ"
+                }
+            },
+            "incorrect_output": {
+                "code": -1,
+                "message": "Invalid Login",
+                "status": false
+            }
+        },
+        "validate_pin": {
+            "correct_output": {
+                "timeStamp": "2021-06-09T04:04:44.818+00:00",
+                "status": true,
+                "message": "Successful",
+                "data": "Pin valid."
+            },
+            "incorrect_output": {
+                "timeStamp": "2021-06-09T04:05:47.522+00:00",
+                "status": false,
+                "message": "Invalid Pin.",
+                "data": ""
+            }
+        },
+        "register_personal": {
+            "correct_output": {
+                "timeStamp": "2021-06-09T04:05:47.522+00:00",
+                "status": true,
+                "message": "Registration Successful.",
+                "data": ""
+            }
+        },
+        "register_corporate": {
+            "correct_output": {
+                "timeStamp": "2021-06-09T04:05:47.522+00:00",
+                "status": true,
+                "message": "Registration Successful.",
+                "data": ""
+            }
+        },
+        "create_pin": {
+            "correct_output": {
+                "timeStamp": "2021-06-09T04:05:47.522+00:00",
+                "status": true,
+                "message": "Successful.",
+                "data": ""
+            }
+        }
+    },
+    "wallet_service": {
+        "get_wallets": {
+            "incorrect_output": {
+                "timeStamp": "2021-06-09T04:05:47.522+00:00",
+                "status": false,
+                "message": "failed",
+                "data": ""
+            },
+            "correct_output": {
+                "timeStamp": "2021-06-09T04:05:47.522+00:00",
+                "status": true,
+                "message": "Successful.",
+                "data": [
+                    {
+                        "accountName": "John Smith",
+                        "accountNo": "0988564733",
+                        "id": 1,
+                        "createdAt": "2021-06-09T04:05:47.522+00:00",
+                        "updatedAt": "2021-06-09T04:05:47.522+00:00",
+                        "balance": 40000,
+                        "accountType": "virtual",
+                        "default": true
+                    },
+                    {
+                        "accountName": "Alan Smith",
+                        "accountNo": "0988887133",
+                        "id": 2,
+                        "createdAt": "2021-06-09T04:05:47.522+00:00",
+                        "updatedAt": "2021-06-09T04:05:47.522+00:00",
+                        "balance": 0,
+                        "accountType": "virtual",
+                        "default": false
+                    }
+                ]
+            }
+        },
+        "get_virtual_accounts": {
+            "incorrect_output": {
+                "timeStamp": "2021-06-09T04:05:47.522+00:00",
+                "status": false,
+                "message": "failed.",
+                "data": ""
+            },
+            "correct_output": {
+                "timeStamp": "2021-06-09T04:05:47.522+00:00",
+                "status": true,
+                "message": "Successful.",
+                "data": [
+                    {
+                        "id": 1,
+                        "bankName": "Wema",
+                        "bankCode": "098",
+                        "accountNumber": "7864999471",
+                        "accountName": "John Smith",
+                        "userId": "27",
+                        "deleted": false
+                    }
+                ]
+            }
+        }
+    },
+    "contact-service": {},
+    "card-service" : {}
+}

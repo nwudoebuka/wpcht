@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login Controller-->
+        <scene sceneID="bdq-da-nA4">
+            <objects>
+                <viewController storyboardIdentifier="LoginController" id="eV1-3n-riM" customClass="LoginController" customModule="Waya_PayChat_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ekh-gH-wYc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="q4r-h4-o2T"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tNG-Ec-8kV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1013" y="22"/>
+        </scene>
+        <!--Verify Account View Controller-->
+        <scene sceneID="OCc-MV-0Jx">
+            <objects>
+                <viewController storyboardIdentifier="VerifyAccountViewController" modalPresentationStyle="fullScreen" id="RAc-ED-ALd" customClass="VerifyAccountViewController" customModule="Waya_PayChat_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3kP-4m-KdQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="04W-fw-zbM"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="666-cc-LR4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1045" y="1046"/>
+        </scene>
+        <!--Forgot Password View Controller-->
+        <scene sceneID="PfD-L8-3Ac">
+            <objects>
+                <viewController storyboardIdentifier="ForgotPasswordViewController" id="5CK-it-sdh" customClass="ForgotPasswordViewController" customModule="Waya_PayChat_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cmd-JD-m44">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="vb0-Zb-AKo"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w5O-7H-5b6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1053" y="1893"/>
+        </scene>
+        <!--Password Reset View Controller-->
+        <scene sceneID="TWb-lk-YwD">
+            <objects>
+                <viewController storyboardIdentifier="PasswordResetViewController" id="Epe-Kt-Nde" customClass="PasswordResetViewController" customModule="Waya_PayChat_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xZa-SA-yV9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="lyr-LM-svt"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CB6-mI-bGm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-271" y="1915"/>
+        </scene>
+        <!--Login Update Profile View Controller-->
+        <scene sceneID="Nlr-fn-teH">
+            <objects>
+                <viewController storyboardIdentifier="LoginUpdateProfileViewController" id="Fu7-of-G6R" customClass="LoginUpdateProfileViewController" customModule="Waya_PayChat_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q3c-R3-PJL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="geb-Kw-0fw"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6kr-DH-p0G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="555" y="1913"/>
+        </scene>
+        <!--Business Details View Controller-->
+        <scene sceneID="Rse-Me-0MJ">
+            <objects>
+                <viewController storyboardIdentifier="BusinessDetailsViewController" id="R2s-fp-1JL" customClass="BusinessDetailsViewController" customModule="Waya_PayChat_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2uX-Sa-erK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="LqG-pC-ulb"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BAj-Lx-WBf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1354" y="1914"/>
+        </scene>
+        <!--Create Pin View Controller-->
+        <scene sceneID="p2R-ab-acN">
+            <objects>
+                <viewController storyboardIdentifier="CreatePinViewController" modalPresentationStyle="fullScreen" id="nsd-Xz-qLg" customClass="CreatePinViewController" customModule="Waya_PayChat_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ij3-hQ-FOh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="JUc-dC-5Ba"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W0I-sa-67S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-275" y="1053"/>
+        </scene>
+        <!--Custom Home Content View Controller-->
+        <scene sceneID="Cbe-HI-DCZ">
+            <objects>
+                <viewController storyboardIdentifier="CustomHomeContentViewController" modalPresentationStyle="fullScreen" id="QlI-UW-rbB" customClass="CustomHomeContentViewController" customModule="Waya_PayChat_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zyu-8F-HMd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="TQ6-pb-rlJ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fIM-QI-bQU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="500" y="1049"/>
+        </scene>
+        <!--Custom Home Pager View Controller-->
+        <scene sceneID="Jj3-OL-Ub7">
+            <objects>
+                <pageViewController storyboardIdentifier="CustomHomePagerViewController" autoresizesArchivedViewToFullSize="NO" modalPresentationStyle="fullScreen" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="Lo1-dM-fZo" customClass="CustomHomePagerViewController" customModule="Waya_PayChat_2_0" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eKf-ZO-5vF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1250" y="1031"/>
+        </scene>
+        <!--Customize Home Landing View-->
+        <scene sceneID="xpB-sj-sxO">
+            <objects>
+                <viewController storyboardIdentifier="CustomizeHomeLandingView" modalPresentationStyle="fullScreen" id="XGc-vc-Xwo" customClass="CustomizeHomeLandingView" customModule="Waya_PayChat_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CnH-Fj-no3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6jf-zq-F3U"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WnW-FL-lmb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2072" y="1026"/>
+        </scene>
+        <!--Register View Controller-->
+        <scene sceneID="K7X-yv-v1n">
+            <objects>
+                <viewController storyboardIdentifier="RegisterViewController" modalPresentationStyle="fullScreen" id="yzw-vo-HND" customClass="RegisterViewController" customModule="Waya_PayChat_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UHz-mF-fz8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="sZ5-hW-MLx"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WBa-5a-hi8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-352.17391304347831" y="21.195652173913047"/>
+        </scene>
+        <!--Landing View Controller-->
+        <scene sceneID="6oA-OR-cjp">
+            <objects>
+                <viewController storyboardIdentifier="LandingViewController" modalPresentationStyle="fullScreen" id="5Mi-yc-E4n" customClass="LandingViewController" customModule="Waya_PayChat_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hW4-8R-3RD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="aZu-Ec-Wlg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ka6-Rz-pVt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="282.60869565217394" y="30.978260869565219"/>
+        </scene>
+        <!--Password View Controller-->
+        <scene sceneID="fEp-yl-vPc">
+            <objects>
+                <viewController storyboardIdentifier="PasswordViewController" id="Ib9-0G-LUo" customClass="PasswordViewController" customModule="Waya_PayChat_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EOP-u8-JVW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Vso-A2-SgI"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9bW-SQ-2RS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1003" y="40"/>
+        </scene>
+    </scenes>
+</document>

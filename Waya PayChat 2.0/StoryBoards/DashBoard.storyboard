@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Verify Pin View Controller-->
+        <scene sceneID="jQR-Yp-crI">
+            <objects>
+                <viewController storyboardIdentifier="VerifyPinViewController" modalPresentationStyle="fullScreen" id="ulo-yX-wSg" customClass="VerifyPinViewController" customModule="Waya_PayChat_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dqZ-lU-vb1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Zuf-bU-3y6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l9H-Hn-czf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3332" y="-1573"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="PB9-aT-FG6">
+            <objects>
+                <navigationController storyboardIdentifier="UINavigationController" id="6kl-Sa-3RJ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="H3D-Vy-q8q">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2s6-qt-WXr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3078" y="-674"/>
+        </scene>
+        <!--Discover-->
+        <scene sceneID="MFv-Gh-tR6">
+            <objects>
+                <viewController id="oCR-YV-rIp" customClass="UINavigationController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wku-kF-X9W">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="BS9-kL-Zqk"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Discover" image="discover-icon" selectedImage="discovery-selected-icon" id="fAL-RH-gEq">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" name="color-primary"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U2O-9z-wal" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2635" y="84"/>
+        </scene>
+        <!--Wayagram-->
+        <scene sceneID="M6c-si-x4x">
+            <objects>
+                <viewController title="Wayagram" id="bav-00-mJI" customClass="UINavigationController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pee-us-v0i">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="uGz-OJ-PaN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="home-icon" id="g6E-W4-YIs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IuY-B6-t5k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1900" y="84"/>
+        </scene>
+        <!--Wayapay-->
+        <scene sceneID="EkL-5Q-BKS">
+            <objects>
+                <viewController title="Wayapay" id="5cT-ff-QUc" customClass="UINavigationController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Pd-eo-g2W">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Yuw-lA-0kI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Wallet" image="wallet-icon" id="dLu-c5-woS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zfI-nT-Cu2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1162" y="84"/>
+        </scene>
+        <!--Notification-->
+        <scene sceneID="GXV-95-jTt">
+            <objects>
+                <viewController id="iah-ON-idq" customClass="UINavigationController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="URZ-aU-7DJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="goT-5H-HlB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Notification" image="notification-icon" selectedImage="notification-selected-icon" id="iZE-wv-XMX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mVp-aM-u40" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-512" y="87"/>
+        </scene>
+        <!--Chat-->
+        <scene sceneID="Zm6-3f-FwC">
+            <objects>
+                <viewController id="3jE-Rj-Otz" customClass="UINavigationController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ArU-af-BRK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6QF-vR-A39"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Chat" image="message-icon" selectedImage="message-selected-icon" id="5KJ-Xk-NOq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qMA-3g-b1j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136" y="64"/>
+        </scene>
+        <!--Tab Bar View Controller-->
+        <scene sceneID="yL0-0R-9tu">
+            <objects>
+                <tabBarController storyboardIdentifier="TabBarViewController" modalPresentationStyle="fullScreen" id="H9c-Uo-cJX" customClass="TabBarViewController" customModule="Waya_PayChat_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aCY-Xn-OnZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="bav-00-mJI" kind="relationship" relationship="viewControllers" id="KPd-nz-avH"/>
+                        <segue destination="oCR-YV-rIp" kind="relationship" relationship="viewControllers" id="RU9-BN-0Vz"/>
+                        <segue destination="5cT-ff-QUc" kind="relationship" relationship="viewControllers" id="FRF-U9-LJH"/>
+                        <segue destination="iah-ON-idq" kind="relationship" relationship="viewControllers" id="ZKm-P7-aJQ"/>
+                        <segue destination="3jE-Rj-Otz" kind="relationship" relationship="viewControllers" id="bhR-eT-53h"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o7b-My-UB7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1261" y="-674"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="eQx-ln-uGr">
+            <objects>
+                <viewController storyboardIdentifier="QRViewController" modalPresentationStyle="fullScreen" id="mji-gT-CJF" customClass="QRViewController" customModule="Waya_PayChat_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YUQ-Ar-D4W">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="bu2-nH-xcy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ymS-gz-Vzj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2503" y="822"/>
+        </scene>
+        <!--Time Line View Controller-->
+        <scene sceneID="d4O-1U-WRz">
+            <objects>
+                <viewController restorationIdentifier="TimeLineViewController" storyboardIdentifier="TimeLineViewController" id="t7v-5V-reW" customClass="TimeLineViewController" customModule="Waya_PayChat_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RY3-St-Zqu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="08G-mK-ATN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qhP-ZP-Dyd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2977" y="1497"/>
+        </scene>
+        <!--User Pages View Controller-->
+        <scene sceneID="O5z-BA-EpP">
+            <objects>
+                <viewController restorationIdentifier="UserPagesViewController" storyboardIdentifier="UserPagesViewController" id="1bc-ho-07C" customClass="UserPagesViewController" customModule="Waya_PayChat_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bXB-dh-LQ8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="FVc-XC-1PM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mrY-cs-HUk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2228" y="1497"/>
+        </scene>
+        <!--Followers View Controller-->
+        <scene sceneID="282-Yl-XpE">
+            <objects>
+                <viewController restorationIdentifier="FollowersViewController" storyboardIdentifier="FollowersViewController" id="xSf-4x-ZQN" customClass="FollowersViewController" customModule="Waya_PayChat_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m8X-vc-STo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="NCv-3N-zQe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U1o-iE-226" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1586" y="1503"/>
+        </scene>
+        <!--Group View Controller-->
+        <scene sceneID="cei-Rs-3zp">
+            <objects>
+                <viewController restorationIdentifier="GroupViewController" storyboardIdentifier="GroupViewController" id="r8N-Z3-g8S" customClass="GroupViewController" customModule="Waya_PayChat_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bdy-M9-SCY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Z3c-67-MD7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="18O-dL-jf9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-872" y="1503"/>
+        </scene>
+        <!--Profile View Controller-->
+        <scene sceneID="IJZ-VP-Tv7">
+            <objects>
+                <viewController storyboardIdentifier="ProfileViewController" modalPresentationStyle="fullScreen" id="gdE-hx-cex" customClass="ProfileViewController" customModule="Waya_PayChat_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uch-iq-Kwb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="rIl-sL-7Db"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HRs-1b-scj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1659" y="822"/>
+        </scene>
+        <!--Invite Code View Controller-->
+        <scene sceneID="bDB-7G-tUU">
+            <objects>
+                <viewController storyboardIdentifier="InviteCodeViewController" modalPresentationStyle="fullScreen" id="OB5-af-5UQ" customClass="InviteCodeViewController" customModule="Waya_PayChat_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6NP-U0-6cJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="qaH-m3-lRj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r4s-kp-fw0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-836" y="822"/>
+        </scene>
+        <!--Login Information View Controller-->
+        <scene sceneID="wHy-WJ-Gr0">
+            <objects>
+                <viewController storyboardIdentifier="LoginInformationViewController" modalPresentationStyle="fullScreen" id="orH-mM-Npf" customClass="LoginInformationViewController" customModule="Waya_PayChat_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IpE-DY-6DO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="MsR-pz-aQy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Abd-N5-COp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-142" y="822"/>
+        </scene>
+        <!--Interest View Controller-->
+        <scene sceneID="Zl7-om-GL9">
+            <objects>
+                <viewController restorationIdentifier="InterestViewController" storyboardIdentifier="InterestViewController" id="xM3-1U-4PZ" customClass="InterestViewController" customModule="Waya_PayChat_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7qV-2Z-bsb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="bb2-NO-RUF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wbQ-Uh-nEG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-154" y="1470"/>
+        </scene>
+        <!--Edit Profile View Controller-->
+        <scene sceneID="VSw-id-kgY">
+            <objects>
+                <viewController storyboardIdentifier="EditProfileViewController" modalPresentationStyle="fullScreen" id="ynK-Vl-Npe" customClass="EditProfileViewController" customModule="Waya_PayChat_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HxQ-el-MRh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="bTZ-VW-Zxv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DbO-R7-d6X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="605" y="1450"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="discover-icon" width="24" height="24"/>
+        <image name="discovery-selected-icon" width="24" height="24"/>
+        <image name="home-icon" width="24" height="24"/>
+        <image name="message-icon" width="24" height="24"/>
+        <image name="message-selected-icon" width="24" height="24"/>
+        <image name="notification-icon" width="25" height="24"/>
+        <image name="notification-selected-icon" width="25" height="24"/>
+        <image name="wallet-icon" width="24" height="24"/>
+        <namedColor name="color-primary">
+            <color red="1" green="0.40000000000000002" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

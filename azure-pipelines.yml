@@ -1,0 +1,36 @@
+# Xcode
+# Build, test, and archive an Xcode workspace on macOS.
+# Add steps that install certificates, test, sign, and distribute an app, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/xcode
+
+trigger:
+- master
+
+pool:
+  vmImage: 'macos-latest'
+
+steps:
+- task: CocoaPods@0
+  inputs:
+    forceRepoUpdate: true
+
+- task: Xcode@5
+  inputs:
+    actions: 'build'
+    packageApp: false
+    signingOption: 'auto'
+    teamId: 'CZDZW4FYQP'
+    destinationPlatformOption: 'iOS'
+
+- task: CopyFiles@2
+  inputs:
+    # (Required) File paths to include as part of the copy.
+    contents: '**/*.ipa'
+    #(Required) Target folder or UNC path files will copy to. You can use variables.Example: $(build.artifactstagingdirectory)
+    targetFolder: '$(build.artifactStagingDirectory)'
+    #(Optional) Replace existing files in target folder Default value: false
+    overWrite: true
+    #(Optional) Flatten the folder structure and copy all files into the specified target folder Default value: false
+    flattenFolders: true
+
+

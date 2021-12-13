@@ -1,0 +1,6 @@
+framework module ScrollableView {
+  umbrella header "ScrollableView-umbrella.h"
+
+  export *
+  module * { export * }
+}
